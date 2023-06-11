@@ -9,9 +9,9 @@ void updateParams(Params& params)
     int w = 640;
     int h = 480;
 
-    // it's recommended to calibrate sensor to obtain its intrinsics
+    
     float fx = 0, fy = 0, cx = 0, cy = 0;
-    float depthFactor = 3000.f;//max depth
+    float depthFactor = 3000.f;//max depth in mm
     Size frameSize;
 
     fx = fy = kinectDeviceDefaultParams::focal;
